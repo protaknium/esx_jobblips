@@ -1,4 +1,4 @@
-# esx_job_blips
+# esx_jobblips
 FiveM Script that allows you to add blips per job
 
 
