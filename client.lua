@@ -50,7 +50,7 @@ end)
         Citizen.Wait(10)
     end
     if PlayerData.job.name == 'ambulance' then 
-        for _, info in pairs(ambulance) do 
+        for _, info in pairs(ambulanceblips) do 
         info.blip = AddBlipForCoord(info.x, info.y, info.z)
       SetBlipSprite(info.blip, info.id)
       SetBlipDisplay(info.blip, 4)
